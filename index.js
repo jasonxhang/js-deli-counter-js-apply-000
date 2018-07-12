@@ -14,6 +14,7 @@ function nowServing(katzDeliLine) {
   }
 }
 
+console.log(currentLine(katzDeliLine))
 console.log(takeANumber(katzDeliLine, "Jason"))
 console.log(takeANumber(katzDeliLine, "Catie"))
 console.log(nowServing(katzDeliLine))
