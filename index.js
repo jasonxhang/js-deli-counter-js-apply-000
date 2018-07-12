@@ -15,6 +15,8 @@ function nowServing(katzDeliLine) {
 }
 
 console.log(takeANumber(katzDeliLine, "Jason"))
+console.log(takeANumber(katzDeliLine, "Catie"))
+console.log(nowServing(katzDeliLine))
 function currentLine(katzDeliLine) {
    if (katzDeliLine.length === 0) {
     return "The line is currently empty."
